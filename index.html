@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">USA Literacy Data</h1>
+        <h3 id="description">Percentege of educated in different parts of Country</h3>
+        <div id='tooltip'>
+
+        </div>
+        <svg id="canvas">
+            <g id="legend">
+                <rect x="80%" y="30" width="30" height="30" fill="#D7C0AE"></rect><text x="83%" y="50">Less than 15%</text>
+                <rect x="80%" y="60" width="30" height="30" fill='#EEE3CB'></rect><text x="83%" y="80">Less than 30%</text>
+                <rect x="80%" y="90" width="30" height="30" fill='#B7C4CF'></rect><text x="83%" y="110">Less than 65%</text>
+                <rect x="80%" y="120" width="30" height="30" fill='#967E76'></rect><text x="83%" y="140">More than 65%</text>
+            </g>
+            
+        </svg>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha512-4UKI/XKm3xrvJ6pZS5oTRvIQGIzZFoXR71rRBb1y2N+PbwAsKa5tPl2J6WvbEvwN3TxQCm8hMzsl/pO+82iRlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html,body{
+    min-width: 100%;
+    min-height: 100%;;
+}
+
+#canvas{
+    width:1200px;
+    height: 600px;
+    margin: auto;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
